@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
       interesse: form.interesse.value
     };
 
-    fetch("https://script.google.com/macros/s/AKfycbzNteyytwDC3Y1SuOP0lbzIRrTNE5LCXiGisZogP1DevZoaaSsA7t0goyRcY4T8BWuS/exec", {
+    fetch("https://script.google.com/macros/s/AKfycbx06ako0x0K3Smewti-dcpmQKoUBKTvMN1oqFBALMh9qFd3jpzVZM-DM4lTY44dPde1/exec", {
       method: "POST",
       body: JSON.stringify(formData),
       headers: {
