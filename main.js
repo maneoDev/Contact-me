@@ -13,7 +13,6 @@ document.addEventListener("DOMContentLoaded", () => {
       button.textContent = originalText;
       button.disabled = false;
       form.reset();
-      // Você pode colocar aqui um alerta, modal ou mensagem de confirmação
     }, 2000);
   });
 });
@@ -35,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
       interesse: form.interesse.value
     };
 
-    fetch("https://script.google.com/macros/s/AKfycbzOcY7merYc6lTLnabFAkiuA790q1hnQ23uUrvtQ8kFM24noTBux08u16BCIVTw9P2c/exec", {
+    fetch("https://script.google.com/macros/s/AKfycby1WOXMrOXvtvVEV8xRfAxX5N1wAX-TW4huLnhEpXWqx4XYBNnay8cQi3nQnNhFGmfp/exec", {
       method: "POST",
       body: JSON.stringify(formData),
       headers: {
